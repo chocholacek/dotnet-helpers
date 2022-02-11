@@ -11,3 +11,4 @@ To use auto-completion install [dotnet-suggest](https://www.nuget.org/packages/d
 ```
 dotnet tool install -g dotnet-suggest
 ```
+and setup machine according to [this documentation](https://github.com/dotnet/command-line-api/blob/main/docs/dotnet-suggest.md)
