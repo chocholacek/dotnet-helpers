@@ -1,5 +1,5 @@
 # dotnet-helpers
-## supported platforms
+## supported frameworks
 * .NET 6
 ## how to install
 1. run `dotnet pack -c Release`
