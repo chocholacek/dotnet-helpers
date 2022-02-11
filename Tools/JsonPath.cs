@@ -11,9 +11,9 @@ namespace DotnetHelperTool.Tools
 
         public override void Register()
         {
-            var file = new Option<FileInfo>("--file").ExistingOnly();
-            var text = new Option<string>("--text");
-            var path = new Option<string>("--path") { IsRequired = true };
+            var file = new Option<FileInfo>(new []{ "-f", "--file"}).ExistingOnly();
+            var text = new Option<string>(new[] { "-t", "--text" });
+            var path = new Option<string>(new[] { "-jp", "--jsonPath" }) { IsRequired = true };
 
             file.MutuallyExclusiveWith(text);
 
